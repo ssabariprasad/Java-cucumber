@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/features/google.feature",glue="mavenproject.test.steps")
+@CucumberOptions(features="src/test/resources/features/OrangeHRM.feature",glue="mavenproject.test.steps")
 
 public class TestRunner {
 
