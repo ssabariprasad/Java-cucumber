@@ -11,14 +11,13 @@
     <version>4.24.0</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
-<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>7.18.1</version>
 </dependency>
+
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
@@ -29,10 +28,12 @@
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 <dependency>
-    <groupId>info.cukes</groupId>
+    <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
-    <version>1.2.5</version>
+    <version>7.18.1</version>
+    <scope>test</scope>
 </dependency>
 
 
