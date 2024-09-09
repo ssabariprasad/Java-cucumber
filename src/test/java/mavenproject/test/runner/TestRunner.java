@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/features/OrangeHRM.feature",glue="mavenproject.test.steps")
+@CucumberOptions(features="src/test/resources/features/OrangeHRM.feature",
+glue="mavenproject.test.steps",tags="@one")
 
 public class TestRunner {
 
