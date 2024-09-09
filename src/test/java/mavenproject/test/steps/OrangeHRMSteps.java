@@ -27,7 +27,7 @@ public class OrangeHRMSteps {
 	public void user_enters_correct_username_and_password(String username, String password) {
 		driver.manage().timeouts().implicitlyWait(d);
 		driver.findElement(By.name("username")).sendKeys(username);
-		driver.findElement(By.name("password")).sendKeys(password);;
+		driver.findElement(By.name("password")).sendKeys(password);
 		
 	}
 
@@ -42,7 +42,8 @@ public class OrangeHRMSteps {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.manage().timeouts().implicitlyWait(d);
 		String user=driver.findElement(By.className("oxd-userdropdown-name")).getText();
-		boolean status=user.contentEquals("manda user");
+		boolean status=user.contentEquals("Jos Butler");
+		System.out.println(user);
 		assertTrue(status);
 		driver.quit();
 	}
@@ -73,7 +74,7 @@ public void you_clicks_on_submit_button() {
 public void you_navigated_to_home_page_of_the_application() {
 	driver.manage().timeouts().implicitlyWait(d);
 	String user=driver.findElement(By.className("oxd-userdropdown-name")).getText();
-	boolean status=user.contentEquals("manda user");
+	boolean status=user.contentEquals("Jos Butler");
 	assertTrue(status);
 	driver.quit();
 }

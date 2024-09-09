@@ -1,3 +1,5 @@
-mavenproject\test\runner\TestRunner.class
 mavenproject\test\steps\TestSteps.class
 mavenproject\test\steps\OrangeHRMSteps.class
+mavenproject\test\runner\TestRunner.class
+mavenproject\test\steps\DataTableSteps.class
+mavenproject\test\steps\dataTableExampleTestSteps.class
