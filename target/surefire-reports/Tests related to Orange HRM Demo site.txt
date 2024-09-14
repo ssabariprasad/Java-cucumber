@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Tests related to Orange HRM Demo site
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.231 s - in Tests related to Orange HRM Demo site

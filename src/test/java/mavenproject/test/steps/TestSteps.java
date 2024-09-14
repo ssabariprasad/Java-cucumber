@@ -39,7 +39,7 @@ public class TestSteps {
 	    // Write code here that turns the phrase above into concrete actions
            driver.manage().timeouts().implicitlyWait(d);
 	       driver.findElement(By.partialLinkText("Cucumber")).click();
-	       assertTrue(driver.getTitle().contains("BDD Testing"));
+	       assertTrue(driver.getTitle().contains("Cucumber"));
 		   driver.quit();
 	}
 
